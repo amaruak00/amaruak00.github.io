@@ -18,8 +18,19 @@ texture:
   tagline: Seeing much. Suffering much. Studying much.
   date_format: "%Y.%b.%-d"
   style: red 
-  showNav: false
+  showNav: true
   showPicker: false
+  navigation:
+          - title: Profile
+            url: /profile
+          - title: Github blog
+            url: /github_blog
+          - title: VS Code
+            url: /vscode
+          - title: PyTorch
+            url: /pytorch
+          - title: Data Science
+            url: /ds
 
   # generate social links in footer
   social_links:
