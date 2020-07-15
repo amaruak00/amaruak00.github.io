@@ -1,10 +1,8 @@
-title: Texture Theme
-author: GitHub User
-email: your-email@domain.com
+title: amaruak00
+author: amaruak00
+email: amaruak00@hanwha.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  South Korea. Hanwha Systems. Data Scientist. AI Developer.
 show_excerpts: true # set to true to show excerpts on the homepage
 baseurl: ""
 url: "https://amaruak00.github.io/"
@@ -16,8 +14,8 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
+  title: amaruak00
+  tagline: Developer. AI. Data Scientist. 
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
@@ -25,9 +23,9 @@ texture:
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    twitter: amaruak00
+    github:  amaruak00
+    linkedIn: in/amaruak00
     rss: rss
  
 
