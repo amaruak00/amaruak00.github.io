@@ -1,4 +1,4 @@
-title: amaruak00
+title: amaruak00 blog
 author: amaruak00
 email: amaruak00@hanwha.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -15,15 +15,14 @@ sass:
 permalink: /posts/:title/
 texture:
   title: amaruak00
-  tagline: Developer. AI. Data Scientist. 
-  date_format: "%b %-d, %Y"
-  style: black
+  tagline: Seeing much. Suffering much. Studying much.
+  date_format: "%Y.%b.%-d"
+  style: red 
   showNav: false
-  showPicker: true
+  showPicker: false
 
   # generate social links in footer
   social_links:
-    twitter: amaruak00
     github:  amaruak00
     linkedIn: in/amaruak00
     rss: rss
