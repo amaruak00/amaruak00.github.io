@@ -1,150 +1,66 @@
-# texture
+# Edition
 
-A configurable jekyll theme for simply beautiful blogs.
+Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
+Start documenting your product, application, service or website with this configurable theme.
 
-**Demo**: [thelehhman.com/texture](https://thelehhman.com/texture)
+![Edition template screenshot](images/_screenshot.png)
 
-![texture theme preview](/screen1.png)
+Edition was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
-## Installation on Github Pages
+## Features
 
-Add this line to your site's `_config.yml`:
-```yaml
-remote_theme: thelehhman/texture
-```
+* Two column layout
+* Full text search
+* Pre-styled components
+* Auto-generated navigation based on category
+* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Change log
+* RSS/Atom feed
+* SEO tags
+* Google Analytics
 
-**NOTE: If you are forking this repo, remove `base_url: /texture` in the `_config.yml` which is required to load the required website assets**
-## Installation
+## Setup
 
-Add this line to your Jekyll site's `Gemfile`:
+1. Add your site and author details in `_config.yml`.
+2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
-```ruby
-gem "texture"
-```
+## Develop
 
-And add this line to your Jekyll site's `_config.yml`:
+Edition was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-```yaml
-theme: texture
-```
+Install the dependencies with [Bundler](http://bundler.io/):
 
-And then execute:
+~~~bash
+$ bundle install
+~~~
 
-    $ bundle
+Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-Or install it yourself as:
+~~~bash
+$ bundle exec jekyll serve
+~~~
 
-    $ gem install texture
+## Editing
 
-## Usage
+Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
 
-The "texture" key in _config.yml is used to customize the theme data.
-```yaml
-texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
+### Documentation pages
 
-  social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman # format: locale/username
-```
+* Add, update or remove a documentation page in the *Documentation* collection.
+* Change the category of a documentation page to move it to another section in the navigation.
+* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
 
-**Styling**
+### Change log
 
-Multiple header styles are supported using the "style" property under texture in `_config.yml`.
+* Add, update or remove change log entries from your posts.
+* Tag entries as minor or major in the front matter.
 
-```yaml
-texture:
-  style: [yellow|red|black|blue|green|purple]
-```
+### Search
 
-For example, the blue style looks like this:
+* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
 
-![texture theme blue](/screen2.png)
+### Navigation
 
-
-**Texture Picker**
-
-You can toggle the texture picker to show/experiment various textures on your site using the showPicker variable. Remember to make it `false` for production.
-
-```yaml
-texture:
-  showPicker: [false|true] # show the texture selector(development purposes)
-```
-
-**Comments (Disqus)**
-
-Comments on posts can be enabled by specifying your disqus_shortname under texture in `_config.yml`. For example,
-```yaml
-texture:
-  disqus_shortname: games
-```
-
-**Google Analytics**
-
-It can be enabled by specifying your analytics id under texture in `_config.yml`
-```yaml
-texture:
-  analytics_id: '< YOUR ID >'
-```
-
-**Excerpts**
-
-Excerpts can be enabled by adding the following line to your `_config.yml`
-```yaml
-show_excerpts: true
-```
-
-**Toggle Navbar**
-
-```yaml
-texture:
-  showNav: true
-```
-
-**Navigation**
-
-After setting `showNav` to true navigation can be built by adding the following to your `_config.yml`
-
-```yaml
-texture:
-  navigation:
-    - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
-```
-
-**Layouts**
-
-- Home
-- Page
-- Post
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/thelehhman/texture. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `texture.gemspec` accordingly.
-
-## Donation
-If this project help you reduce time to develop, you can give me a cup of coffee :) 
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/thelehhman)
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## More Themes
-[plainwhite](https://github.com/thelehhman/plainwhite-jekyll)
+* Change `site.show_full_navigation` to control all or only the current navigation group being open.
