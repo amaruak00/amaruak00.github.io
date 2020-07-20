@@ -1,22 +1,22 @@
-site: amaruak00
+site: Colorie
 url: amaruak00.github.io
 author: Colorie
 author:
-  name: amaruak00
-  email: amaruak00@hanwha.com
-  url: amaruak00.github.io
+  name: Colorie
+  email: 
+  url: 
   avatar: 
-title: amaruak00
-description: Seeing much, Suffering much, and Studying much
+title: Colorie
+description: Colorie - Single column blog and portfolio Jekyll theme 
 logo: 
 image: 
-twitter: amaruak00
+twitter: ronaldsvilcins  
 twitter:
-  username: amaruak00
-  creator: amaruak00
+  username: ronaldsvilcins
+  creator: ronaldsvilcins
   card: summary
 social:
-  name: cha.sangwon
+  name: Ronalds Vilcins
   links:
     - https://twitter.com/#
     - https://www.dribbble.com/#
