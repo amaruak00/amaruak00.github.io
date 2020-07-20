@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: amaruak00
+title: do code|amaruak00
 url: "https://amaruak00.github.io"
 baseurl: ""
 google_analytics_key:
@@ -9,15 +9,15 @@ show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: amaruak00 blog
+description: Product documentation template for Jekyll.
 author:
-  name: amaruak00
+  name: cha.sangwon
   email: amaruak00@hanwha.com
   twitter: # twitter username without the @ symbol
 social:
   name: amaruak00
   links:
-    - https://github.com/amaruak00
+    - https://instagram.com/amaruak00
 
 # -----
 # Build
