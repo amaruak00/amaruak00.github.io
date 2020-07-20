@@ -1,7 +1,5 @@
 ---
-layout: null
-sitemap: false
+layout: none
 ---
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
-Disallow: /search/
