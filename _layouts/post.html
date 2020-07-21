@@ -1,36 +1,59 @@
 ---
 layout: default
 ---
-<div class="post">
-  {% if page.image %}
-    <div class="featuredImage">
-        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.image }}" alt="" />
-      </div>
-  {% endif %}
-  <h1 class="postTitle">{{ page.title }}</h1>
-  <p class="meta">{{ page.date | date: '%B %d, %Y' }} | <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> Minute Read</p>
-  
-  {{ content }}
-
-  <!-- POST NAVIGATION -->
-  <div class="postNav clearfix">
-    {% if page.previous.url %} 
-      <a class="prev{% if page.previous.image %} image{% endif %}" href="{{ page.previous.url | prepend: site.baseurl }}"><span>&laquo;&nbsp;{{ page.previous.title }}</span>
-      {% if page.previous.image %} 
-        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.previous.image }}" alt="">
+<article {% if page.feature-img or page.color %}class="feature-image" {% endif %}>
+  <header id="main" style="">
+    <div class="title-padder">
+      {% if page.hide_title %}
+      <div class="feature-image-padding"></div>
+      {% else %}
+      <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
+      {% include post_info.html author=page.author date=page.date %}
       {% endif %}
-    </a>
-    {% endif %}  
-    {% if page.next.url %}  
-      <a class="next{% if page.next.image %} image{% endif %}" href="{{ page.next.url | prepend: site.baseurl }}"><span>{{ page.next.title }}&nbsp;&raquo;</span>
-      {% if page.next.image %} 
-        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.next.image }}" alt="">
-      {% endif %} 
-      </a>
-    {% endif %} 
-  </div>
-</div>
+    </div>
+  </header>
 
-{%- if site.disqus.shortname -%}
-  {%- include disqus_comments.html -%}
-{%- endif -%}
+  <section class="post-content">
+  {% if page.bootstrap %}
+    <div class="bootstrap-iso">
+    {% endif %}
+      {{ content }}
+    {% if page.bootstrap %}
+    </div>
+  {% endif %}
+  </section>
+
+  <!-- Social media shares -->
+  {% include share_buttons.html %}
+
+   <!-- Tag list -->
+  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
+  {% include tags_list.html tags=tag_list %}
+
+</article>
+
+<!-- Disqus -->
+{% if site.disqus_shortname or site.theme_settings.disqus_shortname %}
+{% include disqus.html %}{% endif %}
+
+<!-- Post navigation -->
+{% if site.post_navigation  or site.theme_settings.post_navigation %}
+  {% include post_nav.html %}
+{% endif %}
+
+<!-- To change color of links in the page -->
+<style>
+  {% if page.color %}
+  .feature-image a { color: {{ page.color }} !important; }
+  div#post-nav a { color: {{ page.color }} !important; }
+  footer a { color: {{ page.color }} !important; }
+  .site-header nav a:hover {  color: {{ page.color }} !important; }
+  header#main { background-color: {{ page.color }} !important; }
+  {% endif %}
+
+  header#main {
+    background-repeat:no-repeat;
+  {% if page.feature-img %} background-image: url('{{ page.feature-img | relative_url }}');
+  {% elsif page.color %}background-image: url('{{ site.color_image | relative_url }}');  {% endif %}
+  }
+</style>
