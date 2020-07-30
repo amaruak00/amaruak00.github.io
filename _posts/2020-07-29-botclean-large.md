@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Botclean - Large
-tags: [Hackerrank, AI]
+tags: [Hackerrank, AI, Bot Building]
 excerpt_separator: <!--more-->
 ---
 
@@ -65,31 +65,29 @@ MegaMaid's next move would be to move RIGHT, resulting in the following next sta
         dirt_distances = []
         for i in range(len(dirties)):
             dirt_distances.append(math.sqrt((posx - dirties[i][0]) **2 + (posy - dirties[i][1]) **2))
-            
+
         return [x for (y, x) in sorted(zip(dirt_distances, dirties))][0]
 
     def next_move(posx, posy, dimx, dimy, board):
-        posx, posy = posy, posx
-        
+
         dirties = []
         for x in range(dimx):
             for y in range(dimy):
-                if board[y][x] == 'd':
+                if board[x][y] == 'd':
                     dirties.append([x, y])
-                    
+
         dirt_nearest = get_dirt_nearest(posx, posy, dirties)
-        
+
         if dirt_nearest[0] < posx:
-            print("LEFT")
-        elif dirt_nearest[0] > posx:
-            print("RIGHT")
-        elif dirt_nearest[1] < posy:
             print("UP")
-        elif dirt_nearest[1] > posy:
+        elif dirt_nearest[0] > posx:
             print("DOWN")
+        elif dirt_nearest[1] < posy:
+            print("LEFT")
+        elif dirt_nearest[1] > posy:
+            print("RIGHT")
         else:
             print("CLEAN")
-        
 
     if __name__ == "__main__":
         pos = [int(i) for i in input().strip().split()]
