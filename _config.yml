@@ -5,15 +5,14 @@ url: "https://amaruak00.github.io"
 # THEME-SPECIFIC CONFIGURATION
 title: amaruak00's blog
 description: "records for ai"
-avatar: assets/img/161695.png
+avatar: assets/img/2026923.png
 favicon: assets/favicon.ico
 
 # Header and footer text
-# fotter_text: Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
-header_text: GOOD JOB is the most harmful.
+header_text: 
 header_feature_image: assets/img/pexels/computer.jpeg
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a>
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
 
 # Blog
