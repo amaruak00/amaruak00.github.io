@@ -3,12 +3,27 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
-tags: [About, Archive]
+tags: []
+# tags: [About, Archive]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+### About
+ - [Chasangwon](amaruak00@hanwha.com)
+ - Manager
+ - Future Innovation Center
+ - Hanwha Systems/ICT
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+### Career
+ - as a Java Developer
+   - 13.07~19.03: 그룹 연결재무시스템 운영 및 개발
+   - 19.04~19.12: AI 알고리즘 연구 및 개발
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+ - as a AI Researcher
+   - 20.01~20.12: Vision AI 모듈 연구 및 개발
+   - 21.01~ : AI 사업 발굴 및 추진
+
+### Technical Stacks
+ - Java(especially Spring)
+ - SQL(especially Oracle)
+ - PyTorch(especially Vision AI)
  

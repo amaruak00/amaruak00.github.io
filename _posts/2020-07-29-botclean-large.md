@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Botclean - Large
-tags: [Hackerrank, AI, Bot Building]
+tags: [HackerRank, AI, Bot Building]
 excerpt_separator: <!--more-->
 ---
 
@@ -57,7 +57,7 @@ MegaMaid's next move would be to move RIGHT, resulting in the following next sta
     --d--
     ----d
 
-----
+```python
 
     import math
 
@@ -105,4 +105,4 @@ MegaMaid's next move would be to move RIGHT, resulting in the following next sta
         # pos = [int(i) for i in _input[0].strip().split()]
         # dim = [int(i) for i in _input[1].strip().split()]
         # board = [[j for j in _input[i].strip()] for i in range(2, 2+dim[0])]
-
+```
