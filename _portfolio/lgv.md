@@ -3,10 +3,11 @@ layout: post
 title: 자율주행 지게차 팔레트 정밀위치인식 모듈 개발 POC 과제
 feature-img: "assets/img/portfolio/lgv.jpg"
 img: "assets/img/portfolio/lgv.jpg"
-date: 2019 Oct ~ 2020 Feb (5 Months)
+date: 2020-02-28
 tags: [PyTorch, Vision AI, MobileNet]
 ---
 
+ - 기간: 2019.10 ~ 2020.02(5개월)
  - 역할: 데이터 분석, AI 모델 구축
  - 업무 내용
    - 자율주행 지게차에 Vision AI 기술을 적용, 적재대상 팔레트 인식 및 위치 측정하는 과제 수행

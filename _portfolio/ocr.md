@@ -3,10 +3,10 @@ layout: post
 title: 보험사 OCR 솔루션 AI고도화 POC
 feature-img: "assets/img/portfolio/ocr.jpg"
 img: "assets/img/portfolio/ocr.jpg"
-date: 2020 Aug ~ Dec (5 Months)
+date: 2020-12-31
 tags: [PyTorch, Vision AI, OCR, PAN]
 ---
-
+ - 기간: 2020.08 ~ 2020.12(5개월)
  - 역할: AI 모델 구축
  - 업무 내용
    - Vision AI 기술을 적용한 의료영수증 OCR 솔루션 기술 연구

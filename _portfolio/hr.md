@@ -3,10 +3,10 @@ layout: post
 title: 그룹 채용사이트 AI 적용 POC
 feature-img: "assets/img/portfolio/hr.jpg"
 img: "assets/img/portfolio/hr.jpg"
-date: 2019 Jul ~ 2019 Sep (3 Months)
+date: 2019-09-30
 tags: [Apache Spark, Java]
 ---
-
+ - 기간: 2019.07 ~ 2019.09(3개월)
  - 역할: 채용데이터 분석, AI 모델 구축
  - 업무 내용
    - 채용시스템 AI 기술 도입 타당성을 검증하기 위해 지원서 확인 과정에 AI 기술 적용/검토 과제 수행

@@ -3,10 +3,10 @@ layout: post
 title: 그룹 연결재무시스템 고도화 프로젝트
 feature-img: "assets/img/portfolio/hcon.jpg"
 img: "assets/img/portfolio/hcon.jpg"
-date: 2018 Apr ~ 2018 Dec (11 Months)
+date: 2018-12-15
 tags: [Java, Spring Framework, SQL]
 ---
-
+ - 기간: 2018.02 ~ 2018.12(11개월)
  - 역할: PL, 시스템 개발
  - 업무 내용
    - Spring MVC 구조에 맞는 코드 구조 설계
