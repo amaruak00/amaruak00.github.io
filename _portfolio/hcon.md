@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 그룹 연결재무시스템 고도화 프로젝트
-feature-img: "assets/img/portfolio/hcon.jpg"
-img: "assets/img/portfolio/hcon.jpg"
+feature-img: "assets/img/portfolio/hcon.jpeg"
+img: "assets/img/portfolio/hcon.jpeg"
 date: 2018-12-15
 tags: [Java, Spring Framework, SQL]
 ---

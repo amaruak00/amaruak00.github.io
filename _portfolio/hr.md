@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 그룹 채용사이트 AI 적용 POC
-feature-img: "assets/img/portfolio/hr.jpg"
-img: "assets/img/portfolio/hr.jpg"
+feature-img: "assets/img/portfolio/hr.jpeg"
+img: "assets/img/portfolio/hr.jpeg"
 date: 2019-09-30
 tags: [Apache Spark, Java]
 ---
