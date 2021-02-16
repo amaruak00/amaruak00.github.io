@@ -3,17 +3,17 @@ baseurl: ""
 url: "https://amaruak00.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: amaruak00
+title: amaruak00's blog
 description: "records for ai"
-avatar: assets/img/amaruak.svg 
+avatar: assets/img/161695.png
 favicon: assets/favicon.ico
 
 # Header and footer text
 # fotter_text: Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
-header_text: Nothing is as miserable as an incompetent pride.
+header_text: GOOD JOB is the most harmful.
 header_feature_image: assets/img/pexels/computer.jpeg
 footer_text: >
-  <a href="mailto:amaruak00@hanwha.com">amaruak00</a> 2021
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a>
 
 
 # Blog
