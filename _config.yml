@@ -28,8 +28,8 @@ disqus_shortname:                                       # Your discus shortname 
 layout_variables:                                       # Open the "_sass > base" folder, and open "_variables.scss"
 footer_icons:                                           # In _data/social.yml
 share_buttons:                                          # In _data/social.yml
-authors:                                                # In _data/authors.yml
-language:                                               # In _data/language.yml
+authors: amaruak00                                      # In _data/authors.yml
+language: korean                                        # In _data/language.yml
 
 # PAGINATION
 paginate: 5

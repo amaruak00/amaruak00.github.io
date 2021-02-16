@@ -1,16 +1,16 @@
 # Icons on the footer
-rss: true
-email_address:    # Full email address, e.g. "sam@example.com"
+rss:
+email_address: amaruak00@hanwha.com   # Full email address, e.g. "sam@example.com"
 behance:
 bitbucket:
 dribbble:
-facebook:
+facebook: https://www.facebook.com/profile.php?id=100001813807842
 flickr:
 gitlab:
-github: "sylhare"
-instagram:
+github: "amaruak00"
+instagram: https://www.instagram.com/amaruak00/
 keybase:
-linkedin:         # Full URL
+linkedin: https://www.linkedin.com/in/%EC%83%81%EC%9B%90-%EC%B0%A8-19bbb911a/        # Full URL
 pinterest:
 reddit:
 soundcloud:
