@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Botclean - Large
-tags: [HackerRank, AI, Bot Building]
+tags: [HackerRank, AI, Bot]
 excerpt_separator: <!--more-->
 ---
 

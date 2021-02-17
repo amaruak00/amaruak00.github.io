@@ -9,10 +9,14 @@ tags: []
 
 ### About
 [Chasangwon](amaruak00@hanwha.com)
+
 Manager
 
+
 Future Innovation Center
+
 Hanwha Systems/ICT
+
 
 ### Career
  - as a Java Developer
