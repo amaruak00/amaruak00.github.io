@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Book Report
+title: Reading
 subtitle: 2021
 permalink: /gallery/
 gallery_path: "assets/img/books2021"
