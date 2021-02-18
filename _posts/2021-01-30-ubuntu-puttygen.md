@@ -21,4 +21,4 @@ $ apt-get install putty-tools
 $ puttygen *.pem -o *.ppk
 ```
 
- 3. 명령 실행 후 *.pem 파일이 있는 디렉토리에 *.ppk 파일이 생성된다.
+ 3. 명령 실행 후 `*.pem` 파일이 있는 디렉토리에 `*.ppk` 파일이 생성된다.
