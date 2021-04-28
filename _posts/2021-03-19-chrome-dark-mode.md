@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 크롬 다크모드 설정
-tags: [Chrome]]
+tags: [Chrome]
 ---
 
 [크롬 플래그](chrome://flags/#enable-force-dark) 이동
