@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Selenium으로 링크드인 정보 크롤링하기
-tags: [Python, Selenium]]
+tags: [Python, Selenium]
 ---
 
 
