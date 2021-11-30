@@ -4,12 +4,12 @@ url: "https://amaruak00.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: amaruak00's blog
-description: "records for ai"
+description: "records for data professional"
 avatar: assets/img/2026923.png
 favicon: assets/favicon.ico
 
 # Header and footer text
-header_text: 천천히 흘러도 흘러가야 합니다
+header_text: amaruak00
 header_feature_image: assets/img/pexels/computer.jpeg
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
