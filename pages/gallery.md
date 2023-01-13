@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reading
-subtitle: 2021
+subtitle: Book
 permalink: /gallery/
 gallery_path: "assets/img/books2021"
 tags: [Book]
