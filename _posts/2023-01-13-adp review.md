@@ -40,12 +40,12 @@ tags: [ADP, Python]
 - 그러다 일주일 남았을때 정신차리고 2~3시간씩 봄
 - 시험전날 4시까지 공부하고 2시간 자고 시험보러감 죽을뻔..
 
-{% include aligner.html images="posts/adpreview5.jpg" %}
+{% include aligner.html images="posts/adpreview5.png" %}
 > 그리고 1트합격. 서술형 만점 받아서 너무 좋았음
 
 
 ### ADP 실기 1트 떨
-{% include aligner.html images="posts/adpreview6.jpg" %}
+{% include aligner.html images="posts/adpreview6.png" %}
 > 데이터에듀 데이터분석전문가 ADP 실기
 
 - 책을 이거 하나봤음(**결론은 이책은 비추**)
