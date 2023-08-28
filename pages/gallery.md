@@ -3,7 +3,7 @@ layout: page
 title: Reading
 subtitle: Book
 permalink: /gallery/
-gallery_path: "assets/img/books2021"
+gallery_path: "assets/img/books2023"
 tags: [Book]
 ---
 
